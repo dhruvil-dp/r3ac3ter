@@ -87,7 +87,7 @@ const Info = ({id, auth, profile, dispatch}) => {
                         }
                         {changePassword && <ChangePassword setChangePassword={setChangePassword} />}
                         {
-                            showFollowers &&
+                            showFollower &&
                             <Followers 
                             users={user.followers} 
                             setShowFollowers={setShowFollowers} 
