@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* {adminMenu === 1 && <Main />} */}
+      {adminMenu === 1 && <Main />} 
       {adminMenu === 2 && <AdminManagement />}
       {adminMenu === 3 && <Spam />}
       {adminMenu === 4 && <UsersManagement />}
