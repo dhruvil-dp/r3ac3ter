@@ -7,7 +7,7 @@ const AdminDashboard = () => {
 
   return (
     <div className="container1">
-      <Main/>
+      
       <Sidebar />
       
     </div>
