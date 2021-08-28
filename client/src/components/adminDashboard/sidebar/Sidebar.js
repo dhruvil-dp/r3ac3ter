@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <>
-      {adminMenu === 1 && <Main />}
+      {/* {adminMenu === 1 && <Main />} */}
       {adminMenu === 2 && <AdminManagement />}
       {adminMenu === 3 && <Spam />}
       {adminMenu === 4 && <UsersManagement />}
@@ -24,7 +24,7 @@ const Sidebar = () => {
       <div className="sidebar_responsive" id="sidebar">
         <div className="sidebar__title">
           <div className="sidebar__img">
-            <h1>Campus Connect</h1>
+            <h1>R3ACT3R</h1>
           </div>
           <i className="fa fa-times" id="sidebarIcon" aria-hidden="true"></i>
         </div>
