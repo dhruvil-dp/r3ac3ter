@@ -8,6 +8,7 @@ const AdminDashboard = () => {
   return (
     <div className="container1">
       <Sidebar />
+      <Main/>
     </div>
   );
 }
